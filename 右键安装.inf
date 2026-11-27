@@ -1,0 +1,74 @@
+[Version]
+signature="$CHICAGO$"
+NaiwaCursors Cursors
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg = Scheme.Reg,Wreg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%Arrow%,%10%\%CUR_DIR%\%Help%,%10%\%CUR_DIR%\%AppStarting%,%10%\%CUR_DIR%\%Wait%,%10%\%CUR_DIR%\%Crosshair%,%10%\%CUR_DIR%\%IBeam%,%10%\%CUR_DIR%\%NWPen%,%10%\%CUR_DIR%\%No%,%10%\%CUR_DIR%\%SizeNS%,%10%\%CUR_DIR%\%SizeWE%,%10%\%CUR_DIR%\%SizeNWSE%,%10%\%CUR_DIR%\%SizeNESW%,%10%\%CUR_DIR%\%SizeAll%,%10%\%CUR_DIR%\%UpArrow%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Pin%,%10%\%CUR_DIR%\%Person%"
+
+[Wreg]
+HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\%normal_select%"
+HKCU,"Control Panel\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\%help_select%"
+HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\%working_in_background%"
+HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\%busy%"
+HKCU,"Control Panel\Cursors",Crosshair,0x00020000,"%10%\%CUR_DIR%\%precision_select%"
+HKCU,"Control Panel\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\%text_select%"
+HKCU,"Control Panel\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\%handwriting%"
+HKCU,"Control Panel\Cursors",No,0x00020000,"%10%\%CUR_DIR%\%unavailable%"
+HKCU,"Control Panel\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\%vertical_resize%"
+HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\%horizontal_resize%"
+HKCU,"Control Panel\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\%diagonal_resize_nwse%"
+HKCU,"Control Panel\Cursors",SizeNESW,0x00020000,"%10%\%CUR_DIR%\%diagonal_resize_nesw%"
+HKCU,"Control Panel\Cursors",SizeAll,0x00020000,"%10%\%CUR_DIR%\%move%"
+HKCU,"Control Panel\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\%alternate_select%"
+HKCU,"Control Panel\Cursors",Hand,0x00020000,"%10%\%CUR_DIR%\%link_select%"
+HKCU,"Control Panel\Cursors",Pin,0x00020000,"%10%\%CUR_DIR%\%location_select%"
+HKCU,"Control Panel\Cursors",Person,0x00020000,"%10%\%CUR_DIR%\%person_select%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
+
+[Scheme.Cur]
+"normal_select.cur"
+"help_select.cur"
+"working_in_background.cur"
+"busy.cur"
+"precision_select.cur"
+"text_select.cur"
+"handwriting.cur"
+"unavailable.cur"
+"vertical_resize.cur"
+"horizontal_resize.cur"
+"diagonal_resize_nwse.cur"
+"diagonal_resize_nesw.cur"
+"move.cur"
+"alternate_select.cur"
+"link_select.cur"
+"location_select.cur"
+"person_select.cur"
+
+[Strings]
+CUR_DIR = "Cursors\NaiwaCursors"
+SCHEME_NAME = "NaiwaCursors"
+normal_select = "normal_select.cur"
+help_select = "help_select.cur"
+working_in_background = "working_in_background.cur"
+busy = "busy.cur"
+precision_select = "precision_select.cur"
+text_select = "text_select.cur"
+handwriting = "handwriting.cur"
+unavailable = "unavailable.cur"
+vertical_resize = "vertical_resize.cur"
+horizontal_resize = "horizontal_resize.cur"
+diagonal_resize_nwse = "diagonal_resize_nwse.cur"
+diagonal_resize_nesw = "diagonal_resize_nesw.cur"
+move = "move.cur"
+alternate_select = "alternate_select.cur"
+link_select = "link_select.cur"
+location_select = "location_select.cur"
+person_select = "person_select.cur"

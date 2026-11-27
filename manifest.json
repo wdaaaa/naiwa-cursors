@@ -1,0 +1,278 @@
+{
+  "theme": "奶蛙鼠标光标套装 / Naiwa Cursors",
+  "platform": "Windows 10 / 11",
+  "asset_type": ".cur 静态光标（可安装）",
+  "glyph_color": "white",
+  "source": "用户提供 17 张奶蛙设计图，白底自动抠透明，1024px 母版裁边等比居中；黑色图形已改为白色填充 + 深色描边",
+  "master_resolution": "1024x1024",
+  "static_cur_sizes": [
+    32,
+    48,
+    64,
+    128,
+    256
+  ],
+  "encoding": "32bpp BMP + AND mask（兼容旧版软件）；每档热点按 256 基准等比缩放",
+  "state_count": 17,
+  "animated_suggested": [
+    "working_in_background",
+    "busy"
+  ],
+  "states": [
+    {
+      "id": 1,
+      "file": "normal_select.cur",
+      "master": "normal_select.png",
+      "name_zh": "正常选择",
+      "windows_role": "Normal select",
+      "registry_key": "Arrow",
+      "legacy_short_name": "pointer.cur",
+      "meme_form": "抱着白色大箭头",
+      "hotspot_256": [
+        18,
+        18
+      ],
+      "animated_suggested": false
+    },
+    {
+      "id": 2,
+      "file": "text_select.cur",
+      "master": "text_select.png",
+      "name_zh": "文本选择",
+      "windows_role": "Text select",
+      "registry_key": "IBeam",
+      "legacy_short_name": "beam.cur",
+      "meme_form": "抱白色 I 形光标、托腮思考",
+      "hotspot_256": [
+        128,
+        128
+      ],
+      "animated_suggested": false
+    },
+    {
+      "id": 3,
+      "file": "link_select.cur",
+      "master": "link_select.png",
+      "name_zh": "链接选择",
+      "windows_role": "Link select",
+      "registry_key": "Hand",
+      "legacy_short_name": "link.cur",
+      "meme_form": "伸手指向左上方",
+      "hotspot_256": [
+        18,
+        18
+      ],
+      "animated_suggested": false
+    },
+    {
+      "id": 4,
+      "file": "working_in_background.cur",
+      "master": "working_in_background.png",
+      "name_zh": "后台运行",
+      "windows_role": "Working in background",
+      "registry_key": "AppStarting",
+      "legacy_short_name": "working.cur",
+      "meme_form": "纯蓝环、捧腹大笑",
+      "hotspot_256": [
+        77,
+        130
+      ],
+      "animated_suggested": true
+    },
+    {
+      "id": 5,
+      "file": "vertical_resize.cur",
+      "master": "vertical_resize.png",
+      "name_zh": "垂直调整",
+      "windows_role": "Vertical resize",
+      "registry_key": "SizeNS",
+      "legacy_short_name": "vert.cur",
+      "meme_form": "攀着白色上下双向箭头",
+      "hotspot_256": [
+        128,
+        128
+      ],
+      "animated_suggested": false
+    },
+    {
+      "id": 6,
+      "file": "horizontal_resize.cur",
+      "master": "horizontal_resize.png",
+      "name_zh": "水平调整",
+      "windows_role": "Horizontal resize",
+      "registry_key": "SizeWE",
+      "legacy_short_name": "horz.cur",
+      "meme_form": "两臂拉开白色左右双向箭头",
+      "hotspot_256": [
+        128,
+        128
+      ],
+      "animated_suggested": false
+    },
+    {
+      "id": 7,
+      "file": "diagonal_resize_nwse.cur",
+      "master": "diagonal_resize_nwse.png",
+      "name_zh": "斜向调整1",
+      "windows_role": "Diagonal resize 1",
+      "registry_key": "SizeNWSE",
+      "legacy_short_name": "dgn1.cur",
+      "meme_form": "斜拽白色 ↖↘ 双向箭头",
+      "hotspot_256": [
+        128,
+        128
+      ],
+      "animated_suggested": false
+    },
+    {
+      "id": 8,
+      "file": "diagonal_resize_nesw.cur",
+      "master": "diagonal_resize_nesw.png",
+      "name_zh": "斜向调整2",
+      "windows_role": "Diagonal resize 2",
+      "registry_key": "SizeNESW",
+      "legacy_short_name": "dgn2.cur",
+      "meme_form": "斜拽白色 ↙↗ 双向箭头",
+      "hotspot_256": [
+        128,
+        128
+      ],
+      "animated_suggested": false
+    },
+    {
+      "id": 9,
+      "file": "move.cur",
+      "master": "move.png",
+      "name_zh": "移动",
+      "windows_role": "Move",
+      "registry_key": "SizeAll",
+      "legacy_short_name": "move.cur",
+      "meme_form": "张开大手掌（画布抓手）",
+      "hotspot_256": [
+        128,
+        128
+      ],
+      "animated_suggested": false
+    },
+    {
+      "id": 10,
+      "file": "help_select.cur",
+      "master": "help_select.png",
+      "name_zh": "帮助选择",
+      "windows_role": "Help select",
+      "registry_key": "Help",
+      "legacy_short_name": "help.cur",
+      "meme_form": "抱白色箭头 + 大问号",
+      "hotspot_256": [
+        18,
+        18
+      ],
+      "animated_suggested": false
+    },
+    {
+      "id": 11,
+      "file": "unavailable.cur",
+      "master": "unavailable.png",
+      "name_zh": "不可用",
+      "windows_role": "Unavailable",
+      "registry_key": "No",
+      "legacy_short_name": "unavailable.cur",
+      "meme_form": "倒立、红色禁止符",
+      "hotspot_256": [
+        126,
+        123
+      ],
+      "animated_suggested": false
+    },
+    {
+      "id": 12,
+      "file": "busy.cur",
+      "master": "busy.png",
+      "name_zh": "忙碌",
+      "windows_role": "Busy",
+      "registry_key": "Wait",
+      "legacy_short_name": "busy.cur",
+      "meme_form": "蓝环带白色时钟指针、捧腹大笑",
+      "hotspot_256": [
+        75,
+        138
+      ],
+      "animated_suggested": true
+    },
+    {
+      "id": 13,
+      "file": "alternate_select.cur",
+      "master": "alternate_select.png",
+      "name_zh": "候选选择",
+      "windows_role": "Alternative select",
+      "registry_key": "UpArrow",
+      "legacy_short_name": "alternate.cur",
+      "meme_form": "头顶白色向上箭头",
+      "hotspot_256": [
+        128,
+        18
+      ],
+      "animated_suggested": false
+    },
+    {
+      "id": 14,
+      "file": "precision_select.cur",
+      "master": "precision_select.png",
+      "name_zh": "精确选择",
+      "windows_role": "Precision select",
+      "registry_key": "Crosshair",
+      "legacy_short_name": "precision.cur",
+      "meme_form": "戴眼镜抱白色十字准星",
+      "hotspot_256": [
+        128,
+        128
+      ],
+      "animated_suggested": false
+    },
+    {
+      "id": 15,
+      "file": "handwriting.cur",
+      "master": "handwriting.png",
+      "name_zh": "手写",
+      "windows_role": "Pen",
+      "registry_key": "NWPen",
+      "legacy_short_name": "handwriting.cur",
+      "meme_form": "抱着大铅笔",
+      "hotspot_256": [
+        18,
+        18
+      ],
+      "animated_suggested": false
+    },
+    {
+      "id": 16,
+      "file": "location_select.cur",
+      "master": "location_select.png",
+      "name_zh": "位置选择",
+      "windows_role": "Location select",
+      "registry_key": "Pin",
+      "legacy_short_name": "pin.cur",
+      "meme_form": "白色手形 + 白色定位针",
+      "hotspot_256": [
+        125,
+        238
+      ],
+      "animated_suggested": false
+    },
+    {
+      "id": 17,
+      "file": "person_select.cur",
+      "master": "person_select.png",
+      "name_zh": "个人选择",
+      "windows_role": "Person select",
+      "registry_key": "Person",
+      "legacy_short_name": "person.cur",
+      "meme_form": "白色手形 + 白色小人",
+      "hotspot_256": [
+        128,
+        128
+      ],
+      "animated_suggested": false
+    }
+  ]
+}

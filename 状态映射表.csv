@@ -1,0 +1,18 @@
+﻿序号,文件名,中文状态,Win11 设置角色,注册表键,参考包短名,图案动作,热点(256基准),.cur大小,Windows加载验证
+1,normal_select.cur,正常选择,Normal select,Arrow,pointer.cur,抱着白色大箭头,"18,18",368926,通过
+2,text_select.cur,文本选择,Text select,IBeam,beam.cur,抱白色 I 形光标、托腮思考,"128,128",368926,通过
+3,link_select.cur,链接选择,Link select,Hand,link.cur,伸手指向左上方,"18,18",368926,通过
+4,working_in_background.cur,后台运行,Working in background,AppStarting,working.cur,纯蓝环、捧腹大笑,"77,130",368926,通过
+5,vertical_resize.cur,垂直调整,Vertical resize,SizeNS,vert.cur,攀着白色上下双向箭头,"128,128",368926,通过
+6,horizontal_resize.cur,水平调整,Horizontal resize,SizeWE,horz.cur,两臂拉开白色左右双向箭头,"128,128",368926,通过
+7,diagonal_resize_nwse.cur,斜向调整1,Diagonal resize 1,SizeNWSE,dgn1.cur,斜拽白色 ↖↘ 双向箭头,"128,128",368926,通过
+8,diagonal_resize_nesw.cur,斜向调整2,Diagonal resize 2,SizeNESW,dgn2.cur,斜拽白色 ↙↗ 双向箭头,"128,128",368926,通过
+9,move.cur,移动,Move,SizeAll,move.cur,张开大手掌（画布抓手）,"128,128",368926,通过
+10,help_select.cur,帮助选择,Help select,Help,help.cur,抱白色箭头 + 大问号,"18,18",368926,通过
+11,unavailable.cur,不可用,Unavailable,No,unavailable.cur,倒立、红色禁止符,"126,123",368926,通过
+12,busy.cur,忙碌,Busy,Wait,busy.cur,蓝环带白色时钟指针、捧腹大笑,"75,138",368926,通过
+13,alternate_select.cur,候选选择,Alternative select,UpArrow,alternate.cur,头顶白色向上箭头,"128,18",368926,通过
+14,precision_select.cur,精确选择,Precision select,Crosshair,precision.cur,戴眼镜抱白色十字准星,"128,128",368926,通过
+15,handwriting.cur,手写,Pen,NWPen,handwriting.cur,抱着大铅笔,"18,18",368926,通过
+16,location_select.cur,位置选择,Location select,Pin,pin.cur,白色手形 + 白色定位针,"125,238",368926,通过
+17,person_select.cur,个人选择,Person select,Person,person.cur,白色手形 + 白色小人,"128,128",368926,通过
